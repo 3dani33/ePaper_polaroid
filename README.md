@@ -1,4 +1,5 @@
 # ePaper_polaroid
+![Demonstration](img/demo.gif)
 # Install openCV
 
 https://www.jeremymorgan.com/tutorials/raspberry-pi/how-to-install-opencv-raspberry-pi/
