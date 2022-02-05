@@ -21,13 +21,13 @@ def setup():
     
 def display_image(path):
     im = Image.open(path)
-    im.show()
+    # im.show() # for debugging
     im_cropped = crop_max_square(im)
-    im_cropped.show()
+    # im_cropped.show() # for debugging
     im_resized = im_cropped.resize((200, 200))
-    im_resized.show()
+    # im_resized.show() # for debugging
     im_bw = im_resized.convert('1')
-    im_bw.show()
+    # im_bw.show() for debugging
     
     global epd
     epd.init(0)
