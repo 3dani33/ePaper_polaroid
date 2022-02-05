@@ -25,7 +25,7 @@ And then visible on the display:
 <p align="center"><img src="img/photo_close.jpg" width=30% height=30%></p>
 
 # Code
-There is very little code, all of which relies on great python libraries. Button presses are detected with the builtin Raspberry Pi GPIO library[^1](see [button.py](src/button.py). Capturing images from the webcam is done with openCV[^2](see [capture.py](src/capture.py). The image is then saved as a jpeg file and loaded with the Pillow image processing library and processed, as seen above. Then it is sent to the display over the SPI connection (see [display.py](src/display.py). 
+There is very little code, all of which relies on great python libraries. Button presses are detected with the builtin Raspberry Pi GPIO library[^1](see [button.py](src/button.py)). Capturing images from the webcam is done with openCV[^2](see [capture.py](src/capture.py)). The image is then saved as a jpeg file and loaded with the Pillow image processing library and processed, as seen above. Then it is sent to the display over the SPI connection (see [display.py](src/display.py)). 
 
 The Raspberry Pi is run with a full Raspberry Pi OS image (headless image makes installing openCV harder because of the missing multimedia libraries) and the script [ePaper_polaroid.py](src/ePaper_polaroid.py) is started on every reboot via cron (<https://phoenixnap.com/kb/crontab-reboot>).
 
