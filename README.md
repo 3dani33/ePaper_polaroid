@@ -1,5 +1,5 @@
 # ePaper Polaroid
-Instant pictures with a Raspberry Pi, a webcam and a ePaper display:
+**Instant pictures with a Raspberry Pi, a webcam and an ePaper display:**
 
 <p align="center"><img src="img/photo_all.jpg" width=30% height=30%></p>
 
